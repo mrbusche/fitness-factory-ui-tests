@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "cy:run": "cypress run --spec cypress/e2e/redirects-1.cy.js",
+    "cy:run-all": "cypress run"
+  },
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^12.8.1"
   }
 }
