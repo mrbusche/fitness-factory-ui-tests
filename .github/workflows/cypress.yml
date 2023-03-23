@@ -1,7 +1,7 @@
 name: Test redirects
 on:
   push:
-    branches: [ main-fake ]
+    branches: [ main ]
 #   schedule:
 #   - cron: '0 4 * * *'
 jobs:
@@ -13,4 +13,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          spec: cypress/e2e/redirects-1.cy.js
+          spec: cypress/e2e/redirects-*.cy.js

@@ -48,7 +48,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/3008/exm4000s/body-solid_exm4000_triple_stack_gym/service=/');
   })
   it('/commercial/item/3012/g10b/body-solid_g10b_ultimate_bi-angular_gym/service=/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/3012/g10b/body-solid_g10b_ultimate_bi-angular_gym/service=/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/3012/g10b/body-solid_g10b_ultimate_bi-angular_gym/service=/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/3012/g10b/body-solid_g10b_ultimate_bi-angular_gym/service=/service=/adeasel.com');
   })
   it('/Commercial/Item/3027/OPB/Olympic_Iron_Weight_Plates', () => {
@@ -80,7 +80,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/3088/lp40s/lp40s_leg_press_attachment/');
   })
   it('/commercial/item/3091/sp200/200_lb__selectorized_weight_stack/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/3091/sp200/200_lb__selectorized_weight_stack/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/3091/sp200/200_lb__selectorized_weight_stack/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/3091/sp200/200_lb__selectorized_weight_stack/adeasel.com');
   })
   it('/commercial/item/3091/sp200/200_lb__selectorized_weight_stack/service', () => {
@@ -148,7 +148,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/3229/produal-dlat/body-solid_produal_lat_mid_row/service=/');
   })
   it('/commercial/item/3236/giot-stk/pro-select_inner_outer_thigh/service=/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/3236/giot-stk/pro-select_inner_outer_thigh/service=/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/3236/giot-stk/pro-select_inner_outer_thigh/service=/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/3236/giot-stk/pro-select_inner_outer_thigh/service=/service=/adeasel.com');
   })
   it('/commercial/item/3243/kb/body-solid_iron_kettlebells_5-100_lbs_', () => {
@@ -196,7 +196,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/3337/phg1000x/powerline_hardcore_gym/');
   })
   it('/Commercial/Item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/Commercial/Item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/Commercial/Item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/Item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com');
   })
   it('/commercial/item/3342/sib359g/pro_clubline_incline_press_bench', () => {
@@ -328,7 +328,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4320/bfsb5/best_fitness_sb5_indoor_bike/');
   })
   it('/commercial/item/4320/bfsb5/best_fitness_sb5_indoor_bike/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/4320/bfsb5/best_fitness_sb5_indoor_bike/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/4320/bfsb5/best_fitness_sb5_indoor_bike/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4320/bfsb5/best_fitness_sb5_indoor_bike/adeasel.com');
   })
   it('/commercial/item/4393/sprplspr/spri_speed_jump_rope', () => {
@@ -360,7 +360,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4486/bfft10/best_fitness_functional_trainer/service=/');
   })
   it('/commercial/item/4491/sptxt685/spirit_xt685_treadmill/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/4491/sptxt685/spirit_xt685_treadmill/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/4491/sptxt685/spirit_xt685_treadmill/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4491/sptxt685/spirit_xt685_treadmill/service=/adeasel.com');
   })
   it('/commercial/item/4497/l790clubet/landice_l7_treadmill_club_-_executive_panel/service', () => {
@@ -380,7 +380,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4510/l880ltdpst/landice_ltd_l8_pro_sports_trainer_treadmill/service=/');
   })
   it('/commercial/item/4512/l880ltdet/landice_ltd_l8_executive_trainer_treadmill/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/4512/l880ltdet/landice_ltd_l8_executive_trainer_treadmill/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/4512/l880ltdet/landice_ltd_l8_executive_trainer_treadmill/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4512/l880ltdet/landice_ltd_l8_executive_trainer_treadmill/service=/adeasel.com');
   })
   it('/commercial/item/4528/le950prost/landice_e9_elliptimill_-_pro_sports_control_panel', () => {
@@ -392,7 +392,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4530/le950comet/landice_e9_elliptimill_-_executive_panel/');
   })
   it('/Commercial/Item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/Commercial/Item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/Commercial/Item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/Item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com');
   })
   it('/Commercial/Item/4612/CCOREANCHOR/Wall_Anchor_for_Straps___Bands', () => {
@@ -420,7 +420,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4807/com-room_gym_package/service=/service=/');
   })
   it('/commercial/item/4807/com-room/commercial_gym_package/service=/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/4807/com-room/commercial_gym_package/service=/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/4807/com-room/commercial_gym_package/service=/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4807/com-room_gym_package/service=/service=/adeasel.com');
   })
   it('/Commercial/Item/4809/RFSRPT/AKTIVLOK_Rubber_Puzzle_Mats', () => {
@@ -444,7 +444,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4815/gcbt-stk/body-solid_gcbt-stk_selectorized_bicep_tricep/service=/service=/');
   })
   it('/commercial/item/4815/gcbt-stk/body-solid_gcbt-stk_selectorized_bicep_tricep/service=/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/4815/gcbt-stk/body-solid_gcbt-stk_selectorized_bicep_tricep/service=/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/4815/gcbt-stk/body-solid_gcbt-stk_selectorized_bicep_tricep/service=/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/4815/gcbt-stk/body-solid_gcbt-stk_selectorized_bicep_tricep/service=/service=/adeasel.com');
   })
   it('/commercial/item/5269/osg-sets/olympic_deep_dish_weight_plate_sets_with_bar', () => {
@@ -456,7 +456,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/5277/s2slc/body-solid_proclub_series_2_leg_curl/service=/');
   })
   it('/commercial/item/5282/s2lat/body-solid_proclub_series_2_lat_seated_row/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/5282/s2lat/body-solid_proclub_series_2_lat_seated_row/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/5282/s2lat/body-solid_proclub_series_2_lat_seated_row/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/5282/s2lat/body-solid_proclub_series_2_lat_seated_row/service=/adeasel.com');
   })
   it('/Commercial/Item/5285/S2AC/Pro_ClubLine_Series_2_S2AC_Arm_Curl', () => {
@@ -472,7 +472,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/5309/bfpr100/best_fitness_bfpr100_power_rack/');
   })
   it('/commercial/item/5331/kaxosr/kettler_axos_cycle_r/service=/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/5331/kaxosr/kettler_axos_cycle_r/service=/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/5331/kaxosr/kettler_axos_cycle_r/service=/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/5331/kaxosr/kettler_axos_cycle_r/service=/service=/adeasel.com');
   })
   it('/commercial/item/5352/bstb5/body-solid_resistance_band_-_very_heavy', () => {
@@ -492,7 +492,7 @@ describe('Test redirects', () => {
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/5442/phystp-life/hci_lifestep_recumbent_linear_cross_trainer/');
   })
   it('/commercial/item/5444/ccore2mprack/crosscore_multi_purpose_half_rack/service=/service=/adeasel.com', () => {
-    cy.visit('https://fitnessfactory.com/commercial/item/5444/ccore2mprack/crosscore_multi_purpose_half_rack/service=/service=/adeasel.com'), { failOnStatusCode: false };
+    cy.visit('https://fitnessfactory.com/commercial/item/5444/ccore2mprack/crosscore_multi_purpose_half_rack/service=/service=/adeasel.com', { failOnStatusCode: false });
     cy.url().should('eq', 'https://www.fitnessfactory.com/item/5444/ccore2mprack/crosscore_multi_purpose_half_rack/service=/service=/adeasel.com');
   })
   it('/commercial/item/5479/true900t16t/true_excel_900_treadmill_-_transcend_16__console/service=/service', () => {
