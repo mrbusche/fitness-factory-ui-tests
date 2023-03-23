@@ -1,7 +1,7 @@
 name: Test redirects
 on:
   push:
-    branches: [ main-fake ]
+    branches: [ main ]
 #   schedule:
 #   - cron: '0 4 * * *'
 jobs:
