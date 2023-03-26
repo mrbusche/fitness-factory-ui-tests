@@ -357,7 +357,7 @@ describe('Test redirects', () => {
   })
   it('/home/Item/4500/L790CLUBPST/Landice_L7_Treadmill_CLUB_-_Pro_Sport_Panel/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/home/Item/4500/L790CLUBPST/Landice_L7_Treadmill_CLUB_-_Pro_Sport_Panel/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/4500/L790CLUBPST/Landice_L7_Treadmill_CLUB_-_Pro_Sport_Panel/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/4500/L790CLUBPST/Landice_L7_Treadmill_CLUB_-_Pro_Sport_Panel/adeasel.com');
   })
   it('/home/item/4503/l790ltdpt/landice_l7_treadmill_ltd_-_pro_trainer_panel/service=/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/home/item/4503/l790ltdpt/landice_l7_treadmill_ltd_-_pro_trainer_panel/service=/adeasel.com', { failOnStatusCode: false });
@@ -385,7 +385,7 @@ describe('Test redirects', () => {
   })
   it('/Home/Item/4522/L990CLUBET/Landice_CLUB_L9_Executive_Trainer_Treadmill/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/4522/L990CLUBET/Landice_CLUB_L9_Executive_Trainer_Treadmill/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/4522/L990CLUBET/Landice_CLUB_L9_Executive_Trainer_Treadmill/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/4522/L990CLUBET/Landice_CLUB_L9_Executive_Trainer_Treadmill/adeasel.com');
   })
   it('/home/item/4522/l990clubet/landice_club_l9_executive_trainer_treadmill/service=/service', () => {
     cy.visit('https://fitnessfactory.com/home/item/4522/l990clubet/landice_club_l9_executive_trainer_treadmill/service=/service=', { failOnStatusCode: false });

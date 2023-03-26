@@ -53,11 +53,11 @@ describe('Test redirects', () => {
   })
   it('/Home/Item/5276/S2SP/Pro_ClubLine_Series_2_S2SP_Shoulder_Press/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/5276/S2SP/Pro_ClubLine_Series_2_S2SP_Shoulder_Press/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/5276/S2SP/Pro_ClubLine_Series_2_S2SP_Shoulder_Press/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/5276/S2SP/Pro_ClubLine_Series_2_S2SP_Shoulder_Press/adeasel.com');
   })
   it('/Home/Item/5281/S2LEX/Pro_ClubLine_Series_2_S2LEX__Leg_Extension/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/5281/S2LEX/Pro_ClubLine_Series_2_S2LEX__Leg_Extension/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/5281/S2LEX/Pro_ClubLine_Series_2_S2LEX__Leg_Extension/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/5281/S2LEX/Pro_ClubLine_Series_2_S2LEX__Leg_Extension/adeasel.com');
   })
   it('/home/item/5281/s2lex/pro_clubline_series_2_s2lex__leg_extension/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/home/item/5281/s2lex/pro_clubline_series_2_s2lex__leg_extension/adeasel.com', { failOnStatusCode: false });
@@ -81,7 +81,7 @@ describe('Test redirects', () => {
   })
   it('/home/Item/5308/SGH500/Body-Solid_SGH500_Glute_and_Ham_Machine/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/home/Item/5308/SGH500/Body-Solid_SGH500_Glute_and_Ham_Machine/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/5308/SGH500/Body-Solid_SGH500_Glute_and_Ham_Machine/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/5308/SGH500/Body-Solid_SGH500_Glute_and_Ham_Machine/adeasel.com');
   })
   it('/home/item/5309/bfpr100/best_fitness_power_rack_bfpr100', () => {
     cy.visit('https://fitnessfactory.com/home/item/5309/bfpr100/best_fitness_power_rack_bfpr100/', { failOnStatusCode: false });
@@ -357,7 +357,7 @@ describe('Test redirects', () => {
   })
   it('/home/Item/5747/RFHU34/Humane_Beveled_Edge_Cardio_Mat_3__x_4_/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/home/Item/5747/RFHU34/Humane_Beveled_Edge_Cardio_Mat_3__x_4_/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/5747/RFHU34/Humane_Beveled_Edge_Cardio_Mat_3__x_4_/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/5747/RFHU34/Humane_Beveled_Edge_Cardio_Mat_3__x_4_/adeasel.com');
   })
   it('/home/Item/5747/RFHU34/SuperSport_3_x4__Beveled_Cardio_Rubber_Flooring_Mat', () => {
     cy.visit('https://fitnessfactory.com/home/Item/5747/RFHU34/SuperSport_3_x4__Beveled_Cardio_Rubber_Flooring_Mat/', { failOnStatusCode: false });

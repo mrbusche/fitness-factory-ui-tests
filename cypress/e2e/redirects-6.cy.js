@@ -129,7 +129,7 @@ describe('Test redirects', () => {
     })
     it('/Home/Item/6059/9PHYP200X/Powerline_PHYP200X_Hyperextension_Floor_Model/adeasel.com', () => {
         cy.visit('https://fitnessfactory.com/Home/Item/6059/9PHYP200X/Powerline_PHYP200X_Hyperextension_Floor_Model/adeasel.com', { failOnStatusCode: false });
-        cy.url().should('eq', 'https://www.fitnessfactory.com/Item/6059/9PHYP200X/Powerline_PHYP200X_Hyperextension_Floor_Model/adeasel.com');
+        cy.url().should('eq', 'https://www.fitnessfactory.com/item/6059/9PHYP200X/Powerline_PHYP200X_Hyperextension_Floor_Model/adeasel.com');
     })
     it('/home/item/6064/ffoflagt/flag_t-shirts', () => {
         cy.visit('https://fitnessfactory.com/home/item/6064/ffoflagt/flag_t-shirts/', { failOnStatusCode: false });
@@ -169,7 +169,7 @@ describe('Test redirects', () => {
     })
     it('/Home/Item/6145/GBR10/adeasel.com', () => {
         cy.visit('https://fitnessfactory.com/Home/Item/6145/GBR10/adeasel.com', { failOnStatusCode: false });
-        cy.url().should('eq', 'https://www.fitnessfactory.com/Item/6145/GBR10/adeasel.com');
+        cy.url().should('eq', 'https://www.fitnessfactory.com/item/6145/GBR10/adeasel.com');
     })
     it('/home/item/6159/bfpr100-pack1/best_fitness_power_rack_package__1__bench___weight_set/service', () => {
         cy.visit('https://fitnessfactory.com/home/item/6159/bfpr100-pack1/best_fitness_power_rack_package__1__bench___weight_set/service=', { failOnStatusCode: false });
@@ -309,7 +309,7 @@ describe('Test redirects', () => {
     })
     it('/Home/Item/6252/FEXS/Encore_Xtreme_Set/adeasel.com', () => {
         cy.visit('https://fitnessfactory.com/Home/Item/6252/FEXS/Encore_Xtreme_Set/adeasel.com', { failOnStatusCode: false });
-        cy.url().should('eq', 'https://www.fitnessfactory.com/Item/6252/FEXS/Encore_Xtreme_Set/adeasel.com');
+        cy.url().should('eq', 'https://www.fitnessfactory.com/item/6252/FEXS/Encore_Xtreme_Set/adeasel.com');
     })
     it('/home/Item/6255/9H1000TOUCH/Helix_H1000_Touch_Lateral_Trainer_Floor_Model/service', () => {
         cy.visit('https://fitnessfactory.com/home/Item/6255/9H1000TOUCH/Helix_H1000_Touch_Lateral_Trainer_Floor_Model/service=/', { failOnStatusCode: false });
@@ -333,7 +333,7 @@ describe('Test redirects', () => {
     })
     it('/home/Item/6261/9TRUPS100R/True_PS100_Recumbent_Bike_Floor_Model/adeasel.com', () => {
         cy.visit('https://fitnessfactory.com/home/Item/6261/9TRUPS100R/True_PS100_Recumbent_Bike_Floor_Model/adeasel.com', { failOnStatusCode: false });
-        cy.url().should('eq', 'https://www.fitnessfactory.com/Item/6261/9TRUPS100R/True_PS100_Recumbent_Bike_Floor_Model/adeasel.com');
+        cy.url().should('eq', 'https://www.fitnessfactory.com/item/6261/9TRUPS100R/True_PS100_Recumbent_Bike_Floor_Model/adeasel.com');
     })
     it('/Home/Item/6264/9LU7/Landice_LU7_Upright_Bike_-_Floor_Model', () => {
         cy.visit('https://fitnessfactory.com/Home/Item/6264/9LU7/Landice_LU7_Upright_Bike_-_Floor_Model/', { failOnStatusCode: false });
