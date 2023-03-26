@@ -53,7 +53,7 @@ describe('Test redirects', () => {
   })
   it('/Commercial/Item/5750/RFHU68/Humane_SHOK-LOK_Power_Platform/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/5750/RFHU68/Humane_SHOK-LOK_Power_Platform/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/5750/RFHU68/Humane_SHOK-LOK_Power_Platform/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/5750/RFHU68/Humane_SHOK-LOK_Power_Platform/adeasel.com');
   })
   it('/Commercial/Item/5751/RFHU79/SuperSport__8_x8__4-Piece_Rubber_Flooring_Mat', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/5751/RFHU79/SuperSport__8_x8__4-Piece_Rubber_Flooring_Mat/', { failOnStatusCode: false });
@@ -69,7 +69,7 @@ describe('Test redirects', () => {
   })
   it('/Commercial/Item/5766/KBV/Vinyl_Dipped_Kettlebells/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/5766/KBV/Vinyl_Dipped_Kettlebells/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/5766/KBV/Vinyl_Dipped_Kettlebells/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/5766/KBV/Vinyl_Dipped_Kettlebells/adeasel.com');
   })
   it('/commercial/item/5791/glgs100p4/body-solid_corner_leverage_gym_package/service=/service=/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/commercial/item/5791/glgs100p4/body-solid_corner_leverage_gym_package/service=/service=/adeasel.com', { failOnStatusCode: false });
@@ -121,7 +121,7 @@ describe('Test redirects', () => {
   })
   it('/Commercial/Item/6145/GBR10/Body-Solid_Ball_Rebounder/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/6145/GBR10/Body-Solid_Ball_Rebounder/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/6145/GBR10/Body-Solid_Ball_Rebounder/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/6145/GBR10/Body-Solid_Ball_Rebounder/adeasel.com');
   })
   it('/commercial/item/6146/vx-brt/vectra_brt_body_resistability_stretch_trainer/service=/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/commercial/item/6146/vx-brt/vectra_brt_body_resistability_stretch_trainer/service=/adeasel.com', { failOnStatusCode: false });
@@ -181,7 +181,7 @@ describe('Test redirects', () => {
   })
   it('/Commercial/Item/6329/S2CCO/Pro_ClubLine_Series_2_S2CCO_Cable_Crossover/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/6329/S2CCO/Pro_ClubLine_Series_2_S2CCO_Cable_Crossover/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/6329/S2CCO/Pro_ClubLine_Series_2_S2CCO_Cable_Crossover/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/6329/S2CCO/Pro_ClubLine_Series_2_S2CCO_Cable_Crossover/adeasel.com');
   })
   it('/Commercial/Item/6335/PPR200XFFP1/Powerline_Power_Rack_PPR200X_Package__Bench__Lat__Mat', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/6335/PPR200XFFP1/Powerline_Power_Rack_PPR200X_Package__Bench__Lat__Mat/', { failOnStatusCode: false });

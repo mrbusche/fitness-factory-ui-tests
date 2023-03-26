@@ -197,7 +197,7 @@ describe('Test redirects', () => {
   })
   it('/Commercial/Item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/3337/PHG1000X/Powerline_Hardcore_Gym/adeasel.com');
   })
   it('/commercial/item/3342/sib359g/pro_clubline_incline_press_bench', () => {
     cy.visit('https://fitnessfactory.com/commercial/item/3342/sib359g/pro_clubline_incline_press_bench/', { failOnStatusCode: false });
@@ -393,7 +393,7 @@ describe('Test redirects', () => {
   })
   it('/Commercial/Item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/4589/GDKR50P4/Body-Solid_3_Tier_Kettlebell_Rack_Package/adeasel.com');
   })
   it('/Commercial/Item/4612/CCOREANCHOR/Wall_Anchor_for_Straps___Bands', () => {
     cy.visit('https://fitnessfactory.com/Commercial/Item/4612/CCOREANCHOR/Wall_Anchor_for_Straps___Bands/', { failOnStatusCode: false });

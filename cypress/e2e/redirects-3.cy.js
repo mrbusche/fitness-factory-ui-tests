@@ -69,7 +69,7 @@ describe('Test redirects', () => {
   })
   it('/home/Item/3071/T3/Endurance_T3_Treadmill/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/home/Item/3071/T3/Endurance_T3_Treadmill/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/3071/T3/Endurance_T3_Treadmill/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/3071/T3/Endurance_T3_Treadmill/adeasel.com');
   })
   it('/Home/Item/3081/BC2/Powerline_Power_Rack_Bar_Catches', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/3081/BC2/Powerline_Power_Rack_Bar_Catches/', { failOnStatusCode: false });
@@ -153,7 +153,7 @@ describe('Test redirects', () => {
   })
   it('/home/Item/3150/GDIP59/Body-Solid_Dip_Station/â€‹http://www.bbb.org/chicago/business-reviews/exercise-equipment-and-machines-sales/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/home/Item/3150/GDIP59/Body-Solid_Dip_Station/â€‹http://www.bbb.org/chicago/business-reviews/exercise-equipment-and-machines-sales/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/3150/GDIP59/Body-Solid_Dip_Station/â€‹http://www.bbb.org/chicago/business-reviews/exercise-equipment-and-machines-sales/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/3150/GDIP59/Body-Solid_Dip_Station/â€‹http://www.bbb.org/chicago/business-reviews/exercise-equipment-and-machines-sales/adeasel.com');
   })
   it('/Home/Item/3152/8GPM65/Body-Solid_GPM65_Pec_Fly_Machine-Refurbished', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/3152/8GPM65/Body-Solid_GPM65_Pec_Fly_Machine-Refurbished/', { failOnStatusCode: false });
@@ -245,7 +245,7 @@ describe('Test redirects', () => {
   })
   it('/Home/Item/3207/SLM300G/Pro_ClubLine_SLM300G_Lat_Mid_Row/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/3207/SLM300G/Pro_ClubLine_SLM300G_Lat_Mid_Row/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/3207/SLM300G/Pro_ClubLine_SLM300G_Lat_Mid_Row/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/3207/SLM300G/Pro_ClubLine_SLM300G_Lat_Mid_Row/adeasel.com');
   })
   it('/Home/Item/3219/GAB300/Body-Solid_Semi-Recumbent_Ab_Bench', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/3219/GAB300/Body-Solid_Semi-Recumbent_Ab_Bench/', { failOnStatusCode: false });
@@ -373,7 +373,7 @@ describe('Test redirects', () => {
   })
   it('/Home/Item/3337/8PHG1000X/Powerline_Plate-Load_Hardcore_Gym-Refurbished/adeasel.com', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/3337/8PHG1000X/Powerline_Plate-Load_Hardcore_Gym-Refurbished/adeasel.com', { failOnStatusCode: false });
-    cy.url().should('eq', 'https://www.fitnessfactory.com/Item/3337/8PHG1000X/Powerline_Plate-Load_Hardcore_Gym-Refurbished/adeasel.com');
+    cy.url().should('eq', 'https://www.fitnessfactory.com/item/3337/8PHG1000X/Powerline_Plate-Load_Hardcore_Gym-Refurbished/adeasel.com');
   })
   it('/Home/Item/3337/PHG1000X/Plate_Load_Hardcore_Gym', () => {
     cy.visit('https://fitnessfactory.com/Home/Item/3337/PHG1000X/Plate_Load_Hardcore_Gym/', { failOnStatusCode: false });
