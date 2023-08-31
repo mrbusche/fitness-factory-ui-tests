@@ -4,6 +4,6 @@
     "cy:run-all": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^12.8.1"
+    "cypress": "^13.0.0"
   }
 }
